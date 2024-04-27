@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>weather app</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 class="headingmain">WEATHER APP</h1>
+            <div class="searchcontainer">
+                <div class="yweather backgroundflip">Your Weather</div>
+                <div class="swheather">Search Weather</div>
+            </div>
+
+            <!-- grandlocation box  -->
+            <div class="grantloaction-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="para">
+                    <h2>Grant Location Access</h2>
+                    <p class="p">
+                        Allow Access to get weather Information
+                    </p>
+                </div>
+                
+                <div class="grantaccess">
+                    GRANT ACCESS</div>
+                </div>
+            </div> 
+            <!-- currenlocation box  -->
+            <div class="currentloaction">
+                <h2 class="currentcity texttransform"></h2><img src="" alt="">
+
+                <p class="currentdesc texttransform"></p>
+
+                <img src="" alt="">
+
+                <h2 class="currenttemperature"></h2>
+
+                <div class="currentlflexbox">
+                    <div class="flexitemscloaction">
+                        <img src="assets/wind.png" alt="">
+                        <p>Windspeed</p>
+                        <span class="currentwindspeed "> </span>
+                    </div>
+                    <div class="flexitemscloaction">
+                        <img src="assets/humidity.png" alt="">
+                        <p>Humidity</p>
+                        <span class="currenthumidity "></span>
+                    </div>
+                    <div class="flexitemscloaction">
+                        <img src="assets/cloud.png" alt="">
+                        <p>Clouds</p>
+                        <span class="currentclouds "></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- search weather box  -->
+            <div class="searchweatherbox">
+                <input type="text" placeholder="Search for City" class="inputcity" required>
+                <i class="fa-solid fa-magnifying-glass search"></i>
+                <div class="searchdetails">
+                    <!-- <img src="assets/not-found.png" alt=""> -->
+                    <h2 class="place texttransform">blore</h2>
+                    <p class="weatherconsdition texttransform">clody</p>
+                    <h2 class="temperature">23</h2>
+                    <div class="box">
+                        <div class="earchflexitems">
+                            <img src="assets/wind.png" alt="">
+                            <p>Windspeed</p>
+                            <span class="windspeed"></span>
+                        </div>
+                        <div class="earchflexitems">
+                            <img src="assets/humidity.png" alt="">
+                            <p>Humidity</p>
+                            <span class="humidity"></span>
+                        </div>
+                        <div class="earchflexitems">
+                            <img src="assets/cloud.png" alt="">
+                            <p>Clouds</p>
+                            <span class="clouds"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+<!-- <div class="weather-container">
+
+
+                
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Grant Location Access</h2>
+                    <p>
+                        Allow Access to get weather Information
+                    </p>
+                    <button>GRANT ACCESS</button>
+                </div>
+
+
+
+               
+                
+
+                
+                <div class="loading-conatiner">
+                    <img src="spinner.gif" alt="">
+                </div>
+                
+
+                <div>
+                    <h2>Bengaluru</h2><img src="" alt="">
+
+                    <p>moderate rain</p>
+
+                    <img src="" alt="">
+
+                    <h2>30.97&deg;</h2>
+
+                    <div>
+                        <img src="assets/wind.png" alt="">
+                        <p>windspeed</p>
+                        <span></span>
+                    </div>
+                    <div>
+                        <img src="assets/humidity.png" alt="">
+                        <p>humidity</p>
+                        <span></span>
+                    </div>
+                    <div>
+                        <img src="assets/cloud.png" alt="">
+                        <p>Clouds</p>
+                        <span></span>
+                    </div>
+                </div>
+            </div> -->

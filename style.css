@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+}
+body 
+{
+    height: 100vh;
+    background-color: #08AEEA;
+    overflow:hidden;
+}
+.headingmain 
+{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+.searchcontainer 
+{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-inline: auto;
+    margin-top: 20px;
+    align-items: center;
+}
+.yweather 
+{
+    width: 200px;
+    height: 55px;
+    /* background-color: #00000078; */
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.grantloaction-box 
+{
+    margin-inline: auto;
+    width: 700px;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.grantloaction-box i
+{
+    color: white;
+    padding: 30px; 
+    font-size: 3rem;
+    border-radius: 100%;
+    background-color:slateblue;
+}
+.grantloaction-box .grantaccess
+{
+    background-color:rgba(0, 255, 128, 0.743);
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+    border: none;
+    display: inline;
+    font-weight: 700;
+}
+.grantloaction-box .para h2,.p
+{
+    text-align: center;
+    margin: 10px;
+}
+.grantloaction-box .para .p
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.displayproperty 
+{
+  display: none;
+}
+.currentloaction 
+{
+    width: 800px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    color: white;
+    margin-inline: auto;
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: collapse;
+}
+.currentlflexbox 
+{
+    display: flex;
+    gap: 20px;
+}
+.flexitemscloaction
+{
+    background-color: #00000078;
+    width: 180px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.currentloaction h2 
+{
+    font-size: 1.9rem;
+}
+.currentloaction p{
+    font-size: 1.5rem;
+}
+.dispaly
+{
+    visibility: visible;
+}
+.backgroundremove 
+{
+    background-color: transparent;
+}
+.backgroundflip
+{
+    background-color:#00000078;
+}
+.swheather 
+{
+    width: 200px;
+    height: 55px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.visibiltycol
+{
+    visibility: collapse;
+}
+.searchweatherbox 
+{
+    width: 700px;
+    height: 450px;
+    background-color: #08AEEA;
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 20px;
+    visibility: hidden;
+}
+.searchweatherbox input[type=text]
+{
+    width: 550px;
+    height: 40px;
+    background-color: transparent;
+    background-color:#00000078 ;
+    color: whitesmoke;
+    border: none;
+   font-weight: 800;
+   padding: 10px;
+   font-size: 1.5rem;
+   margin-right: 40px;
+}
+.searchweatherbox i 
+{
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.visibility 
+{
+    visibility: visible;
+}
+.searchdetails 
+{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    color: white;
+    opacity: 0;
+}
+.earchflexitems 
+{
+    width: 160px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00000078;
+   
+}
+.box 
+{
+    display: flex;
+    column-gap: 20px;
+}
+.searchdetails h2 
+{
+    font-size: 2rem;
+}
+.searchdetails p 
+{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.searchdetails span 
+{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.opacityone 
+{
+    opacity: 1;
+}
+.opacityzero 
+{
+    opacity: 0;
+}
+.texttransform 
+{
+    text-transform: uppercase;
+}
+.fourzerofour
+{
+    position: relative;
+    z-index: 3;
+    top: 50%;
+    transform: scale(2);
+}
